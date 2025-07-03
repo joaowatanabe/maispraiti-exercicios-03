@@ -61,16 +61,34 @@ main {
   padding: 10px;
 }
 
-#missao {
+h2 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.destaque {
+  font-style: italic;
+  display: inline-block;
+  background-color: #6a458f;
+  padding: 5px;
+}
+
+.missao {
   margin: auto;
   padding: 25px;
   border: 2px solid #6a458f;
 }
 
-#visao {
+.visao {
   margin-top: 10px;
   padding: 25px;
   border: 2px solid #6a458f;
+}
+
+#importante {
+  margin-top: 5px;
+  border-top: 2px solid #592988;
+  padding: 5px;
 }
 
 footer {
